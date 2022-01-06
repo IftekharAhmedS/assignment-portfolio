@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.header-area {
+    display: flex;
+    margin-top: 40px;
+}
+
+.header-title {
+    font-family: 'Yeseva One', cursive;
+}
+
+.header-image img {
+    width: 100%;
+}
