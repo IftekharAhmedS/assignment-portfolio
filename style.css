@@ -14,7 +14,8 @@ body {
 
 .header-area {
     display: flex;
-    margin-top: 40px;
+    align-items: center;
+    margin-top: 10px;
 }
 
 .header-title {
@@ -31,7 +32,6 @@ body {
 
 .highlight {
     color: #e74c3c;
-    margin-top: 5px;
 }
 
 .header-paragraph {
@@ -50,6 +50,46 @@ body {
     color: #ecf0f1;
 }
 
+.scroll-area {
+    margin-top: 40px;
+    font-size: 14px;
+}
+
 .header-image img {
-    width: 100%;
+    width: 90%;
+    margin-left: 25px;
+}
+
+.card-area {
+    margin-top: 60px;
+}
+
+.card-area-title {
+    font-size: 24px;
+    text-align: center;
+}
+
+.card-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards {
+    margin: 0 10px;
+    padding: 35px 15px;
+    border-radius: 15px;
+}
+
+.card-bg-gray {
+    background-color: #EDF5F6;
+}
+
+.card-bg-lightpink {
+    background: #FFEEEE;
+}
+.card-bg-lightyellow {
+    background: #FFF4D6;
+}
+.card-image img {
+    width: 30%;
 }
