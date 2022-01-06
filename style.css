@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
-
 body {
     font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
     width: 80%;
     margin: auto;
-    padding: 0;
 }
 
 .half-width {
@@ -32,6 +33,10 @@ body {
 
 .highlight {
     color: #e74c3c;
+}
+
+.highlight-footer {
+    color: #f39c12;
 }
 
 .header-paragraph {
@@ -96,26 +101,76 @@ body {
     width: 30%;
 }
 
-.develop-area {
+.develop-area, .community-area {
     display: flex;
 }
 
-.develop-left img {
+.develop-left img, .community-right img {
     width: 70%;
 }
 
-.develop-title {
+.develop-title, .community-title {
     font-size: 32px;
     margin-bottom: 25px;
 }
 
-.develop-paragraph {
+.develop-paragraph, .community-paragraph {
     margin-bottom: 40px;
 }
-.develop-btn {
+.develop-btn, .community-btn {
     text-decoration: none;
     background-image: linear-gradient(45deg, #e74c3c, #e67e22);
     padding: 10px 25px;
     border-radius: 5px;
+    color: #ecf0f1;
+}
+
+.community-area {
+    display: flex;
+    margin-top: 60px;
+}
+
+.community-right img {
+    width: 70%;
+    margin-left: 85px;
+}
+
+.community-title {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.community-paragraph {
+    margin-bottom: 40px;
+}
+.community-btn {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #e74c3c, #e67e22);
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #ecf0f1;
+}
+
+
+
+
+
+
+
+footer {
+    background: #222f3e;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 60px;
+}
+
+.footer-title h1{
+    font-family: 'Lobster', cursive;
+    color: #ecf0f1;
+    margin-top: 5px;
+}
+.footer-bottom {
     color: #ecf0f1;
 }
